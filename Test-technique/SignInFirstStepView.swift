@@ -22,8 +22,8 @@ extension View {
 
 struct SignInFirstStepView: View {
     
-    @State var username = ""
-    @State var password = ""
+    @State private var username = ""
+    @State private var password = ""
     
     var body: some View {
         NavigationStack {
@@ -60,7 +60,6 @@ struct SignInFirstStepView: View {
                                     Text("Password")
                                         .foregroundColor(Color("PlaceholderColor"))
                                         .font(.custom("Abel-Regular", size: 14))
-                                        
                                 }
                                 .padding(.leading, 19)
                                 .autocapitalization(.none)
@@ -75,8 +74,8 @@ struct SignInFirstStepView: View {
                         
                         HStack {
                             Spacer()
-                            Button {
-                                //
+                            NavigationLink {
+                                SignInSecondStepView()
                             } label: {
                                 HStack(spacing: 9) {
                                     Text("Sign in")
@@ -96,7 +95,7 @@ struct SignInFirstStepView: View {
                             .padding(.top, 63)
                             Spacer()
                         }
-
+                        
                         
                         Button {
                             //

@@ -31,6 +31,8 @@
 		9CF835BF29E81908000C76BB /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CF835AD29E81908000C76BB /* Poppins-Medium.ttf */; };
 		9CF835C029E81908000C76BB /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CF835AE29E81908000C76BB /* Poppins-Bold.ttf */; };
 		9CF835C129E81908000C76BB /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CF835AF29E81908000C76BB /* Poppins-ExtraBold.ttf */; };
+		9CF835C329E821F3000C76BB /* SignInSecondStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF835C229E821F3000C76BB /* SignInSecondStepView.swift */; };
+		9CF835C529E82DAC000C76BB /* SpaceChooseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF835C429E82DAC000C76BB /* SpaceChooseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +62,8 @@
 		9CF835AD29E81908000C76BB /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		9CF835AE29E81908000C76BB /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		9CF835AF29E81908000C76BB /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		9CF835C229E821F3000C76BB /* SignInSecondStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInSecondStepView.swift; sourceTree = "<group>"; };
+		9CF835C429E82DAC000C76BB /* SpaceChooseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceChooseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 				9CF8358929E7FEB6000C76BB /* Test_techniqueApp.swift */,
 				9CF8358B29E7FEB6000C76BB /* SignInMethodsView.swift */,
 				9CF8359C29E812DA000C76BB /* SignInFirstStepView.swift */,
+				9CF835C229E821F3000C76BB /* SignInSecondStepView.swift */,
 				9CF8358D29E7FEB7000C76BB /* Assets.xcassets */,
 				9CF8358F29E7FEB7000C76BB /* Preview Content */,
+				9CF835C429E82DAC000C76BB /* SpaceChooseView.swift */,
 			);
 			path = "Test-technique";
 			sourceTree = "<group>";
@@ -226,8 +232,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CF835C329E821F3000C76BB /* SignInSecondStepView.swift in Sources */,
 				9CF8358C29E7FEB6000C76BB /* SignInMethodsView.swift in Sources */,
 				9CF8359D29E812DA000C76BB /* SignInFirstStepView.swift in Sources */,
+				9CF835C529E82DAC000C76BB /* SpaceChooseView.swift in Sources */,
 				9CF8358A29E7FEB6000C76BB /* Test_techniqueApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
