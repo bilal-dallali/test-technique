@@ -33,6 +33,7 @@
 		9CF835C129E81908000C76BB /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CF835AF29E81908000C76BB /* Poppins-ExtraBold.ttf */; };
 		9CF835C329E821F3000C76BB /* SignInSecondStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF835C229E821F3000C76BB /* SignInSecondStepView.swift */; };
 		9CF835C529E82DAC000C76BB /* SpaceChooseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF835C429E82DAC000C76BB /* SpaceChooseView.swift */; };
+		9CF835C729E85338000C76BB /* WelcomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF835C629E85338000C76BB /* WelcomePageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		9CF835AF29E81908000C76BB /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
 		9CF835C229E821F3000C76BB /* SignInSecondStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInSecondStepView.swift; sourceTree = "<group>"; };
 		9CF835C429E82DAC000C76BB /* SpaceChooseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceChooseView.swift; sourceTree = "<group>"; };
+		9CF835C629E85338000C76BB /* WelcomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +104,10 @@
 				9CF8358B29E7FEB6000C76BB /* SignInMethodsView.swift */,
 				9CF8359C29E812DA000C76BB /* SignInFirstStepView.swift */,
 				9CF835C229E821F3000C76BB /* SignInSecondStepView.swift */,
+				9CF835C429E82DAC000C76BB /* SpaceChooseView.swift */,
 				9CF8358D29E7FEB7000C76BB /* Assets.xcassets */,
 				9CF8358F29E7FEB7000C76BB /* Preview Content */,
-				9CF835C429E82DAC000C76BB /* SpaceChooseView.swift */,
+				9CF835C629E85338000C76BB /* WelcomePageView.swift */,
 			);
 			path = "Test-technique";
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			files = (
 				9CF835C329E821F3000C76BB /* SignInSecondStepView.swift in Sources */,
 				9CF8358C29E7FEB6000C76BB /* SignInMethodsView.swift in Sources */,
+				9CF835C729E85338000C76BB /* WelcomePageView.swift in Sources */,
 				9CF8359D29E812DA000C76BB /* SignInFirstStepView.swift in Sources */,
 				9CF835C529E82DAC000C76BB /* SpaceChooseView.swift in Sources */,
 				9CF8358A29E7FEB6000C76BB /* Test_techniqueApp.swift in Sources */,
