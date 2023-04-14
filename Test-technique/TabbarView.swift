@@ -18,6 +18,14 @@ struct TabbarView: View {
         ZStack {
             if isDashboardSelected {
                 DashboardView()
+            } else if isPhoneUsageSelected {
+                NavigationListView()
+            } else {
+                VStack {
+                    Text("")
+                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .background(Color("BackgroundColor"))
             }
             VStack {
                 Spacer()
@@ -51,7 +59,7 @@ struct TabbarView: View {
                         } label: {
                             VStack(spacing: 3) {
                                 Image(isPhoneUsageSelected ? "phone-icon-selected" : "phone-icon-unselected")
-                                Text("PHONE USAGE")
+                                Text(isPhoneUsageSelected ? "CONTROL" : "PHONE USAGE")
                                     .foregroundColor(Color(isPhoneUsageSelected ? "White" : "Violet"))
                                     .font(.custom("Poppins-Regular", size: 10))
                             }

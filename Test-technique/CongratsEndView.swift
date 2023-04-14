@@ -19,7 +19,7 @@ struct CongratsEndView: View {
                 VStack(spacing: 118) {
                     Image("logo-bigger")
                     NavigationLink {
-                        DashboardView()
+                        TabbarView()
                     } label: {
                         HStack(spacing: 5) {
                             Text("Go to dashboard")

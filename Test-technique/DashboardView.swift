@@ -225,8 +225,99 @@ struct DashboardView: View {
                     Text("Mental State")
                         .foregroundColor(Color("Brown"))
                         .font(.custom("Poppins-Bold", size: 14))
+                    Image("mental-state-chart")
                 }
                 .padding(14)
+                .frame(maxWidth: .infinity)
+                .background(.white)
+                .cornerRadius(12)
+                .padding(.top, 7)
+                VStack(alignment: .leading, spacing: 14) {
+                    Text("Last social media activites")
+                        .foregroundColor(Color("Brown"))
+                        .font(.custom("Poppins-Bold", size: 14))
+                        .padding(.horizontal, 14)
+                    VStack(spacing: 10) {
+                        HStack {
+                            VStack {
+                                Image("profile-picture-rebecca")
+                                Spacer()
+                            }
+                            Spacer()
+                            VStack(spacing: 0) {
+                                HStack {
+                                    Text("Rebecca Morgan")
+                                        .foregroundColor(Color("Brown"))
+                                        .font(.custom("Abel-regular", size: 18))
+                                    Spacer()
+                                    Text("12:34 PM")
+                                        .foregroundColor(Color("Brown"))
+                                        .font(.custom("Abel-Regular", size: 10))
+                                }
+                                HStack {
+                                    Text("Mama always said life was like a box of chocolates. You never know what…")
+                                        .foregroundColor(Color("Brown"))
+                                        .font(.custom("Abel-regular", size: 14))
+                                    Spacer()
+                                }
+                            }
+                            Spacer()
+                            Rectangle()
+                                .frame(width: 2)
+                                .foregroundColor(Color("Violet"))
+                                .cornerRadius(.infinity)
+                                .padding(.leading, 16)
+                        }
+                        .padding(.leading, 5)
+                        .padding(.trailing, 8)
+                        HStack {
+                            VStack {
+                                Image("profile-picture-justin")
+                                Spacer()
+                            }
+                            Spacer()
+                            VStack(spacing: 0) {
+                                HStack {
+                                    Text("Justin Holmes")
+                                        .foregroundColor(Color("Brown"))
+                                        .font(.custom("Abel-regular", size: 18))
+                                    Spacer()
+                                    Text("13:11 PM")
+                                        .foregroundColor(Color("Brown"))
+                                        .font(.custom("Abel-Regular", size: 10))
+                                }
+                                HStack {
+                                    Text("You don't understand! I coulda had class. I coulda been a contender. I could've…")
+                                        .foregroundColor(Color("Brown"))
+                                        .font(.custom("Abel-regular", size: 14))
+                                    Spacer()
+                                }
+                            }
+                            Spacer()
+                            Rectangle()
+                                .frame(width: 2)
+                                .foregroundColor(Color("Violet"))
+                                .cornerRadius(.infinity)
+                                .padding(.leading, 16)
+                        }
+                        .padding(.leading, 5)
+                        .padding(.trailing, 8)
+                    }
+                    
+                }
+                .padding(.vertical, 14)
+                .frame(maxWidth: .infinity)
+                .background(.white)
+                .cornerRadius(12)
+                .padding(.top, 7)
+                
+                VStack(alignment: .leading, spacing: 0) {
+                    Text("Sleep Duration")
+                        .font(.custom("Poppins-Bold", size: 14))
+                    Image("sleep-duration-chart")
+                }
+                .padding(16)
+                .padding(.bottom, 50)
                 .frame(maxWidth: .infinity)
                 .background(.white)
                 .cornerRadius(12)
