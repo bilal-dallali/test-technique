@@ -34,6 +34,13 @@
 		9CF835C329E821F3000C76BB /* SignInSecondStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF835C229E821F3000C76BB /* SignInSecondStepView.swift */; };
 		9CF835C529E82DAC000C76BB /* SpaceChooseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF835C429E82DAC000C76BB /* SpaceChooseView.swift */; };
 		9CF835C729E85338000C76BB /* WelcomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF835C629E85338000C76BB /* WelcomePageView.swift */; };
+		9CF835C929E85638000C76BB /* AddDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF835C829E85638000C76BB /* AddDeviceView.swift */; };
+		9CF835CB29E85E22000C76BB /* AddProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF835CA29E85E22000C76BB /* AddProfile.swift */; };
+		9CF835CD29E86794000C76BB /* ConfirmProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF835CC29E86794000C76BB /* ConfirmProfileView.swift */; };
+		9CF835CF29E86CA5000C76BB /* AddChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF835CE29E86CA5000C76BB /* AddChildView.swift */; };
+		9CF835D129E87294000C76BB /* CongratsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF835D029E87294000C76BB /* CongratsView.swift */; };
+		9CF835D329E87642000C76BB /* CongratsEndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF835D229E87642000C76BB /* CongratsEndView.swift */; };
+		9CF835D529E87915000C76BB /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF835D429E87915000C76BB /* DashboardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +73,13 @@
 		9CF835C229E821F3000C76BB /* SignInSecondStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInSecondStepView.swift; sourceTree = "<group>"; };
 		9CF835C429E82DAC000C76BB /* SpaceChooseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceChooseView.swift; sourceTree = "<group>"; };
 		9CF835C629E85338000C76BB /* WelcomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageView.swift; sourceTree = "<group>"; };
+		9CF835C829E85638000C76BB /* AddDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDeviceView.swift; sourceTree = "<group>"; };
+		9CF835CA29E85E22000C76BB /* AddProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProfile.swift; sourceTree = "<group>"; };
+		9CF835CC29E86794000C76BB /* ConfirmProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmProfileView.swift; sourceTree = "<group>"; };
+		9CF835CE29E86CA5000C76BB /* AddChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChildView.swift; sourceTree = "<group>"; };
+		9CF835D029E87294000C76BB /* CongratsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratsView.swift; sourceTree = "<group>"; };
+		9CF835D229E87642000C76BB /* CongratsEndView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratsEndView.swift; sourceTree = "<group>"; };
+		9CF835D429E87915000C76BB /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +119,16 @@
 				9CF8359C29E812DA000C76BB /* SignInFirstStepView.swift */,
 				9CF835C229E821F3000C76BB /* SignInSecondStepView.swift */,
 				9CF835C429E82DAC000C76BB /* SpaceChooseView.swift */,
+				9CF835C629E85338000C76BB /* WelcomePageView.swift */,
+				9CF835C829E85638000C76BB /* AddDeviceView.swift */,
+				9CF835CA29E85E22000C76BB /* AddProfile.swift */,
+				9CF835CC29E86794000C76BB /* ConfirmProfileView.swift */,
+				9CF835CE29E86CA5000C76BB /* AddChildView.swift */,
+				9CF835D029E87294000C76BB /* CongratsView.swift */,
+				9CF835D229E87642000C76BB /* CongratsEndView.swift */,
+				9CF835D429E87915000C76BB /* DashboardView.swift */,
 				9CF8358D29E7FEB7000C76BB /* Assets.xcassets */,
 				9CF8358F29E7FEB7000C76BB /* Preview Content */,
-				9CF835C629E85338000C76BB /* WelcomePageView.swift */,
 			);
 			path = "Test-technique";
 			sourceTree = "<group>";
@@ -236,11 +257,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CF835C329E821F3000C76BB /* SignInSecondStepView.swift in Sources */,
+				9CF835C929E85638000C76BB /* AddDeviceView.swift in Sources */,
 				9CF8358C29E7FEB6000C76BB /* SignInMethodsView.swift in Sources */,
 				9CF835C729E85338000C76BB /* WelcomePageView.swift in Sources */,
 				9CF8359D29E812DA000C76BB /* SignInFirstStepView.swift in Sources */,
+				9CF835CB29E85E22000C76BB /* AddProfile.swift in Sources */,
+				9CF835CF29E86CA5000C76BB /* AddChildView.swift in Sources */,
 				9CF835C529E82DAC000C76BB /* SpaceChooseView.swift in Sources */,
+				9CF835CD29E86794000C76BB /* ConfirmProfileView.swift in Sources */,
 				9CF8358A29E7FEB6000C76BB /* Test_techniqueApp.swift in Sources */,
+				9CF835D129E87294000C76BB /* CongratsView.swift in Sources */,
+				9CF835D529E87915000C76BB /* DashboardView.swift in Sources */,
+				9CF835D329E87642000C76BB /* CongratsEndView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
