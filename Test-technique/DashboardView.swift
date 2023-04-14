@@ -220,6 +220,17 @@ struct DashboardView: View {
                 .background(.white)
                 .cornerRadius(12)
                 .padding(.top, 7)
+                
+                VStack(alignment: .leading, spacing: 0) {
+                    Text("Mental State")
+                        .foregroundColor(Color("Brown"))
+                        .font(.custom("Poppins-Bold", size: 14))
+                }
+                .padding(14)
+                .frame(maxWidth: .infinity)
+                .background(.white)
+                .cornerRadius(12)
+                .padding(.top, 7)
             }
             .padding(.horizontal, 22)
             .frame(maxWidth: .infinity)
