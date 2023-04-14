@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C481FCA29E956ED00D2F8EA /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C481FC929E956ED00D2F8EA /* TabbarView.swift */; };
 		9CF8358A29E7FEB6000C76BB /* Test_techniqueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF8358929E7FEB6000C76BB /* Test_techniqueApp.swift */; };
 		9CF8358C29E7FEB6000C76BB /* SignInMethodsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF8358B29E7FEB6000C76BB /* SignInMethodsView.swift */; };
 		9CF8358E29E7FEB7000C76BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CF8358D29E7FEB7000C76BB /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C481FC929E956ED00D2F8EA /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
 		9CF8358629E7FEB6000C76BB /* Test-technique.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test-technique.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CF8358929E7FEB6000C76BB /* Test_techniqueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_techniqueApp.swift; sourceTree = "<group>"; };
 		9CF8358B29E7FEB6000C76BB /* SignInMethodsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInMethodsView.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				9CF835D029E87294000C76BB /* CongratsView.swift */,
 				9CF835D229E87642000C76BB /* CongratsEndView.swift */,
 				9CF835D429E87915000C76BB /* DashboardView.swift */,
+				9C481FC929E956ED00D2F8EA /* TabbarView.swift */,
 				9CF8358D29E7FEB7000C76BB /* Assets.xcassets */,
 				9CF8358F29E7FEB7000C76BB /* Preview Content */,
 			);
@@ -264,6 +267,7 @@
 				9CF835CB29E85E22000C76BB /* AddProfile.swift in Sources */,
 				9CF835CF29E86CA5000C76BB /* AddChildView.swift in Sources */,
 				9CF835C529E82DAC000C76BB /* SpaceChooseView.swift in Sources */,
+				9C481FCA29E956ED00D2F8EA /* TabbarView.swift in Sources */,
 				9CF835CD29E86794000C76BB /* ConfirmProfileView.swift in Sources */,
 				9CF8358A29E7FEB6000C76BB /* Test_techniqueApp.swift in Sources */,
 				9CF835D129E87294000C76BB /* CongratsView.swift in Sources */,
