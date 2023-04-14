@@ -19,13 +19,14 @@ struct TabbarView: View {
             if isDashboardSelected {
                 DashboardView()
             } else if isPhoneUsageSelected {
-                NavigationListView()
+                ApplicationListView()
             } else {
                 VStack {
                     Text("")
                 }
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .background(Color("BackgroundColor"))
+                .navigationBarBackButtonHidden()
             }
             VStack {
                 Spacer()

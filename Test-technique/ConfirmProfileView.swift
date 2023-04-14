@@ -33,8 +33,8 @@ struct ConfirmProfileView: View {
                     .background(.white)
                     .cornerRadius(8)
                     
-                    Button {
-                        //
+                    NavigationLink {
+                        AddChildView()
                     } label: {
                         HStack(spacing: 8) {
                             Text("Continue")
@@ -51,8 +51,8 @@ struct ConfirmProfileView: View {
                     .cornerRadius(8)
                 }
                 .padding(.top, 31)
-                Button {
-                    //
+                NavigationLink {
+                    AddProfileView()
                 } label: {
                     Text("Modify profile information")
                         .foregroundColor(Color("FontColor"))

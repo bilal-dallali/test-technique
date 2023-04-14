@@ -111,22 +111,41 @@ struct AddChildView: View {
                                     .background(.white)
                                     .cornerRadius(8)
                                     
-                                    NavigationLink {
-                                        CongratsView()
-                                    } label: {
-                                        HStack {
-                                            Text("Next")
-                                                .foregroundColor(Color("FontColor"))
-                                                .font(.custom("Abel-Regular", size: 18))
-                                            Image(systemName: "chevron.right")
-                                                .resizable()
-                                                .frame(width: 6, height: 10)
-                                                .foregroundColor(Color("BackgroundColor"))
+                                    if firstName != "" && lastName != "" && gender != "" && birthDate != "" {
+                                        NavigationLink {
+                                            CongratsView()
+                                        } label: {
+                                            HStack {
+                                                Text("Next")
+                                                    .foregroundColor(Color("FontColor"))
+                                                    .font(.custom("Abel-Regular", size: 18))
+                                                Image(systemName: "chevron.right")
+                                                    .resizable()
+                                                    .frame(width: 6, height: 10)
+                                                    .foregroundColor(Color("BackgroundColor"))
+                                            }
                                         }
+                                        .frame(width: 105, height: 50)
+                                        .background(.white)
+                                        .cornerRadius(8)
+                                    } else {
+                                        Button {
+                                            //
+                                        } label: {
+                                            HStack {
+                                                Text("Next")
+                                                    .foregroundColor(Color("FontColor"))
+                                                    .font(.custom("Abel-Regular", size: 18))
+                                                Image(systemName: "chevron.right")
+                                                    .resizable()
+                                                    .frame(width: 6, height: 10)
+                                                    .foregroundColor(Color("BackgroundColor"))
+                                            }
+                                        }
+                                        .frame(width: 105, height: 50)
+                                        .background(.white)
+                                        .cornerRadius(8)
                                     }
-                                    .frame(width: 105, height: 50)
-                                    .background(.white)
-                                    .cornerRadius(8)
                                 }
                             }
                         }

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct NavigationListView: View {
+struct ApplicationListView: View {
     
     @State private var searchBar = ""
     @State private var isChromeSelected = true
@@ -174,6 +174,6 @@ struct NavigationListView: View {
 
 struct NavigationList_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationListView()
+        ApplicationListView()
     }
 }

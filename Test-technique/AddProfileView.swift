@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AddProfile: View {
+struct AddProfileView: View {
     
     @State private var socialNetwork = ""
     @State private var socialUsername = ""
@@ -88,8 +88,8 @@ struct AddProfile: View {
                             .padding(.horizontal, 40)
                             .padding(.top, 23)
                         HStack(spacing: 45) {
-                            Button {
-                                //
+                            NavigationLink {
+                                ConfirmProfileView()
                             } label: {
                                 Text("Skip")
                                     .foregroundColor(Color("FontColor"))
@@ -99,22 +99,41 @@ struct AddProfile: View {
                             .background(.white)
                             .cornerRadius(8)
                             
-                            NavigationLink {
-                                ConfirmProfileView()
-                            } label: {
-                                HStack {
-                                    Text("Next")
-                                        .foregroundColor(Color("FontColor"))
-                                        .font(.custom("Abel-Regular", size: 18))
-                                    Image(systemName: "chevron.right")
-                                        .resizable()
-                                        .frame(width: 6, height: 10)
-                                        .foregroundColor(Color("BackgroundColor"))
+                            if socialNetwork != "" && socialUsername != "" && socialUrl != "" {
+                                NavigationLink {
+                                    ConfirmProfileView()
+                                } label: {
+                                    HStack {
+                                        Text("Next")
+                                            .foregroundColor(Color("FontColor"))
+                                            .font(.custom("Abel-Regular", size: 18))
+                                        Image(systemName: "chevron.right")
+                                            .resizable()
+                                            .frame(width: 6, height: 10)
+                                            .foregroundColor(Color("BackgroundColor"))
+                                    }
                                 }
+                                .frame(width: 105, height: 50)
+                                .background(.white)
+                                .cornerRadius(8)
+                            } else {
+                                Button {
+                                    //ConfirmProfileView()
+                                } label: {
+                                    HStack {
+                                        Text("Next")
+                                            .foregroundColor(Color("FontColor"))
+                                            .font(.custom("Abel-Regular", size: 18))
+                                        Image(systemName: "chevron.right")
+                                            .resizable()
+                                            .frame(width: 6, height: 10)
+                                            .foregroundColor(Color("BackgroundColor"))
+                                    }
+                                }
+                                .frame(width: 105, height: 50)
+                                .background(.white)
+                                .cornerRadius(8)
                             }
-                            .frame(width: 105, height: 50)
-                            .background(.white)
-                            .cornerRadius(8)
                         }
                         .padding(.top, 33)
                     }
@@ -159,6 +178,6 @@ struct AddProfile: View {
 
 struct AddProfile_Previews: PreviewProvider {
     static var previews: some View {
-        AddProfile()
+        AddProfileView()
     }
 }

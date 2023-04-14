@@ -74,28 +74,49 @@ struct SignInFirstStepView: View {
                         
                         HStack {
                             Spacer()
-                            NavigationLink {
-                                SignInSecondStepView()
-                            } label: {
-                                HStack(spacing: 9) {
-                                    Text("Sign in")
-                                        .foregroundColor(Color("FontColor"))
-                                        .font(.custom("Poppins-Bold", size: 18))
-                                    Image(systemName: "chevron.right")
-                                        .resizable()
-                                        .frame(width: 6, height: 10)
-                                        .foregroundColor(Color("FontColor"))
+                            if username != "" && password != "" {
+                                NavigationLink {
+                                    SignInSecondStepView()
+                                } label: {
+                                    HStack(spacing: 9) {
+                                        Text("Sign in")
+                                            .foregroundColor(Color("FontColor"))
+                                            .font(.custom("Poppins-Bold", size: 18))
+                                        Image(systemName: "chevron.right")
+                                            .resizable()
+                                            .frame(width: 6, height: 10)
+                                            .foregroundColor(Color("FontColor"))
+                                    }
+                                    .padding(.vertical, 15)
+                                    .padding(.leading, 13)
+                                    .padding(.trailing, 20)
+                                    .background(.white)
+                                    .cornerRadius(8)
                                 }
-                                .padding(.vertical, 15)
-                                .padding(.leading, 13)
-                                .padding(.trailing, 20)
-                                .background(.white)
-                                .cornerRadius(8)
-                            }
                             .padding(.top, 63)
+                            } else {
+                                Button {
+                                    //SignInSecondStepView()
+                                } label: {
+                                    HStack(spacing: 9) {
+                                        Text("Sign in")
+                                            .foregroundColor(Color("FontColor"))
+                                            .font(.custom("Poppins-Bold", size: 18))
+                                        Image(systemName: "chevron.right")
+                                            .resizable()
+                                            .frame(width: 6, height: 10)
+                                            .foregroundColor(Color("FontColor"))
+                                    }
+                                    .padding(.vertical, 15)
+                                    .padding(.leading, 13)
+                                    .padding(.trailing, 20)
+                                    .background(.white)
+                                    .cornerRadius(8)
+                                }
+                            .padding(.top, 63)
+                            }
                             Spacer()
                         }
-                        
                         
                         Button {
                             //

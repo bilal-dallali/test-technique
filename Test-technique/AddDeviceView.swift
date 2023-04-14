@@ -28,7 +28,7 @@ struct AddDeviceView: View {
                     .frame(width: 169, height: 169)
                 HStack(spacing: 45) {
                     NavigationLink {
-                        AddProfile()
+                        AddProfileView()
                     } label: {
                         Text("Skip")
                             .foregroundColor(Color("FontColor"))
@@ -38,8 +38,8 @@ struct AddDeviceView: View {
                     .background(.white)
                     .cornerRadius(8)
                     
-                    Button {
-                        //
+                    NavigationLink {
+                        AddProfileView()
                     } label: {
                         HStack {
                             Text("Next")
